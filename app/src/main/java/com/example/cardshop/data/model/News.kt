@@ -1,4 +1,8 @@
 package com.example.cardshop.data.model
 
-class News {
-}
+data class News(
+    val name: String,
+    val price: Double,
+    val imageResource: Int,
+    val sale: Boolean
+)

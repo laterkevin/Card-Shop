@@ -1,4 +1,8 @@
 package com.example.cardshop.data.model
 
-class Popular {
-}
+data class Popular(
+    val name: String,
+    val price: Double,
+    val imageResource: Int,
+    val sale: Boolean
+)
